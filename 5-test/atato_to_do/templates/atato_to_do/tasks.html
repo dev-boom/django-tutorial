@@ -1,0 +1,18 @@
+{% if tasks %}
+    <ul>
+    {% for task in tasks %}
+        <li>
+          <span>
+          {% if task.is_done %}
+          ☑
+          {% else %}
+          🗸
+          {% endif %}
+          </span>
+          <a href="{% url 'edit_task' task.id %}">{{ task.name }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Tasks are available.</p>
+{% endif %}

@@ -1,0 +1,51 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$120000$4LhhdGzHAErB$3RcqgEw86OZYMTyK9Vpx9kpKC/AZiDbCCf/KTU32U8k=",
+        "last_login": "2019-02-09T15:52:07.245Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@atato.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-02-09T15:51:58.429Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6taib4xm3yz5ipfe62b6dsjggd3ytuht",
+    "fields": {
+        "session_data": "ZjA1MTVhMmUzNDI5NzcxYzYwNGZkZTZhNzk5Y2NmNWM5MDAwZmVjZjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJlMTQzYTY3MDBhMDExYzVkNzNmZWEwNjg5MzUwNTQ0NDAwOGNhZWM1In0=",
+        "expire_date": "2019-02-23T15:52:07.251Z"
+    }
+},
+{
+    "model": "atato_to_do.task",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "name": "First Task",
+        "date": "2019-02-09T15:52:28.533Z",
+        "is_done": false
+    }
+},
+{
+    "model": "atato_to_do.task",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "name": "Another Cool Task",
+        "date": "2019-02-09T15:52:38.941Z",
+        "is_done": false
+    }
+}
+]
